@@ -1,0 +1,48 @@
+.skeleton {
+  background-color: var(--color-surface-400);
+  border-radius: 0.25rem;
+  animation: pulse 1.5s infinite;
+}
+
+.country-card--skeleton .country-card__flag {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.country-card--skeleton .country-card__name {
+  height: 1rem;
+  width: 8rem;
+}
+
+.country-details--skeleton .country-details__flag {
+  height: 3.75rem;
+  width: 3.75rem;
+}
+
+.country-details--skeleton .country-details__name {
+  height: 1.25rem;
+  margin-bottom: 0.5rem;
+  width: 5rem;
+}
+
+.country-details--skeleton .country-details__continent {
+  height: 1rem;
+  width: 6rem;
+}
+
+.country-details--skeleton .country-details__bottom {
+  height: 5rem;
+  width: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: var(--color-surface-400);
+  }
+  50% {
+    background-color: var(--color-surface-300);
+  }
+  100% {
+    background-color: var(--color-surface-400);
+  }
+}

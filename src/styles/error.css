@@ -1,0 +1,36 @@
+.error {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.error__title,
+.error__message {
+  color: #ffffff;
+  margin: 0;
+}
+
+.error__button {
+  border-radius: 0.375rem;
+  margin-top: 1.5rem;
+  padding: 0.375rem 1.5rem;
+}
+
+.error-card {
+  background-color: var(--color-surface-200);
+  border-radius: 0.75rem;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 18.75rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.error-card__title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}

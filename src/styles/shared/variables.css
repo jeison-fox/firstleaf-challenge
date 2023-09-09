@@ -1,0 +1,15 @@
+:root {
+  --color-primary-100: #117fd9;
+  --color-primary-200: #468cde;
+  --color-primary-300: #659ae2;
+  --color-primary-400: #7ea7e7;
+  --color-primary-500: #96b5eb;
+  --color-primary-600: #acc4ef;
+
+  --color-surface-100: #16031a;
+  --color-surface-200: #2a1f2f;
+  --color-surface-300: #413645;
+  --color-surface-400: #594f5d;
+  --color-surface-500: #736a76;
+  --color-surface-600: #8d8690;
+}

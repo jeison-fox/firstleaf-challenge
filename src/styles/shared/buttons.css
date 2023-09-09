@@ -1,0 +1,21 @@
+.btn {
+  align-items: center;
+  background-color: var(--color-primary-500);
+  border: 0;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-300);
+}
+
+.btn:focus,
+.btn:focus-visible,
+.btn:focus-within {
+  outline: 2px solid #FFFFFF;
+}
